@@ -1,0 +1,18 @@
+{
+        "status": "Alpha",
+        "thumbnailUrl": "https://raw.githubusercontent.com/DCCouncil/dc-law/master/dccouncil.jpg",
+        "bornAt": "Code FOR DC",
+        "geography": "DC",
+        "politicalEntity":{"DC Council": "dccouncil.us"},
+        "governmentPartner":{"DC Council": "dccouncil.us"},
+        "type":"Web App",
+        "needs": [
+                {"need": "XML Guru (xpath/xslt/xsd)"},
+                {"need": ".NET Developer"},
+                {"need": "Python Developer"}
+        ],
+        "categories": [
+                {"category": "Law"},
+                {"category": "Education"}
+        ]
+}
