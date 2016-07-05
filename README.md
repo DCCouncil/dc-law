@@ -30,8 +30,8 @@ where you will find documentation and issue tracker.
 The other repositories are:
 
 * `https://github.com/DCCouncil/dc-law-tools` - the build scripts used to create, manipulate and edit the laws.
-* `https://github.com/DCCouncil/dc-law-xml` - the eventual home of the laws in xml.
-* `https://github.com/DCCouncil/dc-law-html` - the eventual home of the laws in html.
+* `https://github.com/DCCouncil/dc-law-xml` - the home of the laws in xml.
+* `https://github.com/DCCouncil/dc-law-html` - the home of the laws in html.
 
 ## License and contributing
 All repositories are licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
