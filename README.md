@@ -29,11 +29,19 @@ This is the main repository for the project,
 where you will find documentation and issue tracker.
 The other repositories are:
 
-* `https://github.com/DCCouncil/dc-law-tools` - the build scripts used to create, manipulate and edit the laws.
+* `https://github.com/DCCouncil/dc-law-tools` - the build scripts used to create, manipulate and edit the laws (archived).
 * `https://github.com/DCCouncil/dc-law-xml` - the home of the laws in xml.
 * `https://github.com/DCCouncil/dc-law-html` - the home of the laws in html.
 
-## License and contributing
+## Contributing
+* `dc-law-html` is generated from dc-law-xml. Do not make manual commits
+* `dc-law-xml` PRs should be broken into enough commits that GitHubs diff can show each commit in full (max 1k files each). Commits should be squashed and merged with a message in the following form:
+ * "codify: xx-xxx" to codify a law
+ * "recodify: ..." to make codification changes separate from a bill
+ * "technical: ..." for technical corrections
+ * "system: ..." for changes to the xml necessary for build-system improvements
+
+## License
 All repositories are licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 The CC0 license is not "Viral." If you wish to contribute, it is therefore necessary for you to explicitly license your pull request under the CC0 License. You can do that by either:
