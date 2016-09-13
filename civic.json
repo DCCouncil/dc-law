@@ -1,18 +1,37 @@
 {
-        "status": "Alpha",
-        "thumbnailUrl": "https://raw.githubusercontent.com/DCCouncil/dc-law/master/dccouncil.jpg",
-        "bornAt": "Code FOR DC",
-        "geography": "DC",
-        "politicalEntity":{"DC Council": "dccouncil.us"},
-        "governmentPartner":{"DC Council": "dccouncil.us"},
-        "type":"Web App",
-        "needs": [
-                {"need": "XML Guru (xpath/xslt/xsd)"},
-                {"need": ".NET Developer"},
-                {"need": "Python Developer"}
-        ],
-        "categories": [
-                {"category": "Law"},
-                {"category": "Education"}
-        ]
+    "name": "DC Code Metadata", 
+    "description": "", 
+    "license": "GPL-2.0", 
+    "status": "Alpha", 
+    "type": "Web App", 
+    "homepage": "", 
+    "repository": "https://github.com/DCCouncil/dc-law", 
+    "thumbnail": "https://raw.githubusercontent.com/DCCouncil/dc-law/master/dccouncil.jpg", 
+    "geography": [
+        "DC"
+    ], 
+    "contact": {
+        "name": "", 
+        "email": "", 
+        "url": ""
+    }, 
+    "partners": [
+        {
+            "url": "dccouncil.us", 
+            "name": "DC Council", 
+            "email": ""
+        }, 
+        {
+            "url": "http://codefordc.org", 
+            "name": "Code for DC", 
+            "email": ""
+        }
+    ], 
+    "data": [], 
+    "tags": [
+        "Law", 
+        "Education"
+    ], 
+    "links": [], 
+    "id": "https://raw.githubusercontent.com/DCgov/civic.json/master/schemas/schema-v1.json"
 }
