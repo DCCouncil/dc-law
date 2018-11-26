@@ -13,14 +13,14 @@ We have several goals, some of which have never been accomplished anywhere befor
 
 To reach these goals we must accomplish the following general tasks:
 
-[x] Create an xml schema to represent the code
-[x] Convert the existing code from word to xml
-[] Eliminate errors in the xml (in progress)
-[] extract computer-readable data from the narrative DCCode annotations written by lawyers/paralegals (in progress)
-[] Create a Statute Parser (in progress)
-[] Create tools to codify a statute based on the parsed statute text and extracted metadata.
-[] Improve the html view of the laws
-[] Create beautiful pdfs of the laws
+- [x] Create an xml schema to represent the code
+- [x] Convert the existing code from word to xml
+- [ ] Eliminate errors in the xml (in progress)
+- [ ] extract computer-readable data from the narrative DCCode annotations written by lawyers/paralegals (in progress)
+- [ ] Create a Statute Parser (in progress)
+- [ ] Create tools to codify a statute based on the parsed statute text and extracted metadata.
+- [ ] Improve the html view of the laws
+- [ ] Create beautiful pdfs of the laws
 
 Right now we are looking for help extracting computer-readable data from the DCCode annotations. If you are interested in helping, check out the [issues](https://github.com/DCCouncil/dc-law/issues).
 
@@ -35,7 +35,7 @@ The other repositories are:
 
 ## Contributing
 * `dc-law-html` is generated from dc-law-xml. Do not make manual commits
-* `dc-law-xml` PRs should be broken into enough commits that GitHubs diff can show each commit in full (max 1k files each). Commits should be squashed and merged with a message in the following form:
+* `dc-law-xml` PRs should be broken into enough commits that GitHub's diff can show each commit in full (max 1k files each). Commits should be squashed and merged with a message in the following form:
  * "codify: xx-xxx" to codify a law
  * "recodify: ..." to make codification changes separate from a bill
  * "technical: ..." for technical corrections
