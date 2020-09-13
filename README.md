@@ -13,14 +13,14 @@ We have several goals, some of which have never been accomplished anywhere befor
 
 To reach these goals we must accomplish the following general tasks:
 
-[x] Create an xml schema to represent the code
-[x] Convert the existing code from word to xml
-[] Eliminate errors in the xml (in progress)
-[] extract computer-readable data from the narrative DCCode annotations written by lawyers/paralegals (in progress)
-[] Create a Statute Parser (in progress)
-[] Create tools to codify a statute based on the parsed statute text and extracted metadata.
-[] Improve the html view of the laws
-[] Create beautiful pdfs of the laws
+- [x] Create an xml schema to represent the code
+- [x] Convert the existing code from word to xml
+- [ ] Eliminate errors in the xml (in progress)
+- [ ] extract computer-readable data from the narrative DCCode annotations written by lawyers/paralegals (in progress)
+- [ ] Create a Statute Parser (in progress)
+- [ ] Create tools to codify a statute based on the parsed statute text and extracted metadata.
+- [ ] Improve the html view of the laws
+- [ ] Create beautiful pdfs of the laws
 
 Right now we are looking for help extracting computer-readable data from the DCCode annotations. If you are interested in helping, check out the [issues](https://github.com/DCCouncil/dc-law/issues).
 
